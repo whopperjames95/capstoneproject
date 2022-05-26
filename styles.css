@@ -1,0 +1,189 @@
+body {
+    padding-top: 7rem;
+    text-align: center;
+    background-color: black
+}
+
+
+
+.textquote {
+    background-color: rgb(238, 238, 238);
+    font-weight: bold;
+    font: black;
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 200px;
+    height: 15px; 
+}
+
+.submit{
+    background-color: rgb(147, 139, 146);
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px; 
+    width: 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+}
+
+.list-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.list-item{
+    padding-inline: 2rem;
+}
+.navbar{
+    background-color: #000000;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    font: bold 11px;
+}
+
+
+p {
+    color:#7624a3;
+    font-weight:bold;
+    font-size: 20px;
+    font-family:verdana
+}
+
+#pricing-buttons {
+    background-color:#61c78f;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 250px;
+    height: 45px;
+    font-size: 23px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    position: center
+}
+
+#pricing-buttons:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    cursor: pointer;
+  }
+
+  .list-item {
+    /* box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .jeep-pic:hover{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-family: verdana;
+    color: #3CB371;
+    font-size: 25px
+  }
+
+  .popup:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  .email {
+    color:#7624a3;
+  }
+  .contact {
+    color: #3CB371;
+  }
+
+  .homePage {
+    color: #3CB371;
+    font-size: 15px;
+  }
+
+  .number {
+    color:#7624a3;
+    font-weight:bold;
+    font-size: 20px;
+    font-family:verdana
+  }
+
+
+
+
+ 
