@@ -8,7 +8,7 @@
         <nav class="navbar">
             <ul class="list-container">
                 <li class="list-item" style="font-family:impact; font-size : 30px"><a class="links" href="./home.html" style="text-decoration: none;">Home</a></li>
-                <li class="list-item" style="font-family:impact; font-size : 30px"><a class="links" href="./FreeQuote.html" style="text-decoration: none;">Click For Free Quote</a></li>
+                <li class="list-item" style="font-family:impact; font-size : 30px"><a class="links" href="./index.html" style="text-decoration: none;">Click For Free Quote</a></li>
                 <li class="list-item" style="font-family:impact; font-size : 30px"><a class="links" href="./Prices.html" style="text-decoration: none;">Pricing</a></li>
             </ul>
 	</nav>
@@ -25,6 +25,14 @@
         <h1><font color="#3CB371"; style="font-family:impact ; font-size : 50px">ARIZONA BOSS DETAILERS</font></h1>
         
 		<h2><font color="#3CB371"; style="font-family:verdana; font-size : 20px">Submit Information For a Free Quote</font></h2>
+
+        <img src="http://www.azbossdetailers.com/static/media/carlogo.5911000ebbc9a5f27956.PNG"
+        style="position:absolute;
+        width:325px;
+        height:325px;
+        border-radius: 50%;
+        top:70px;
+        left:65px;">
        
         
 
@@ -34,16 +42,16 @@
 		<form id="contact">
            
 			<div></div>
-            <input type="text" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" style="font-family:verdana" placeholder="Your Name *" required>
+            <input type="text" id = "name" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" style="font-family:verdana" placeholder="Your Name *" required>
 
             <div></div>
-                <input type="textarea" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" placeholder = "Email Address *" required>
+                <input type="textarea1" id = "email" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" placeholder = "Email Address *" required>
 
             <div></div>
-                <input type="textarea" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" placeholder = "Vehicle Make">
+                <input type="textarea2" id = "make" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" placeholder = "Vehicle Make">
 
             <div></div>
-                <input type="textarea" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" placeholder = "Vehicle Model">
+                <input type="textarea3" id = "model" style="width: 650px; height:2px; font-size:12pt; font-family:Helvetica" class="textquote" placeholder = "Vehicle Model">
 
             <div></div>
 			    <input type="submit" style="width: 100px; font-size:12pt; font-family: Helvetica" class="submit"> 
@@ -74,7 +82,7 @@
 
 
 
-	<script src="FreeQuote.js"></script>
+	
 
     <footer>
         <br>
@@ -86,6 +94,59 @@
         
         <a class="number" href="tel:+1-480-692-8232">(480) 692-8232</a>
         <p><a class="email" href="mailto:ArizonaBossDetailers@gmail.com.com">ArizonaBossDetailers@gmail.com</a></p>      </footer>
+
+
+
+
+
+
+        <a href="https://www.facebook.com/ArizonaBossDetailers/" class="fa fa-facebook" style="position:absolute;
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        top:70px;
+        right:150px;" target="_blank"></a>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+
+        <a href="https://www.instagram.com/arizonabossdetailers/" target ="_blank"class="fa fa-instagram"
+        style="position:absolute;
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        top:70px;
+        right:75px;"></a>
+
+
+
+<a href="https://www.google.com/search?q=arizona+boss+detailers+reviews&oq=arizona+boss+detailers+reviews&aqs=chrome..69i57j0i546l3.5153j0j7&sourceid=chrome&ie=UTF-8#lrd=0x872baf9c375ee7c3:0x2faf0a0d741bbc8d,1,,," target ="_blank"class="fa fa-google"
+style="position:absolute;
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+top:70px;
+right:225px;"></a>
+
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+
+    <script src="FreeQuote.js"></script>
+    
 
 </body>
 </html>
