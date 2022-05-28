@@ -7,6 +7,7 @@ module.exports = {
         let {name, email, make, model} = req.body;
 
 
+
         let newLead = {
             id: globalId,
             name,
@@ -17,6 +18,7 @@ module.exports = {
         userInfo.push(newLead);
         res.status(200).send(userInfo);
         globalId++;
+
     },
     
     getDetailPrice: (req,res) =>  {
