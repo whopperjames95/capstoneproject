@@ -6,8 +6,6 @@ module.exports = {
     createLead: (req,res) => {
         let {name, email, make, model} = req.body;
 
-
-
         let newLead = {
             id: globalId,
             name,
