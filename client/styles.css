@@ -84,7 +84,6 @@ p {
   }
 
   .list-item, .list-item:visited, .list-item:hover, .list-item:active {
-    /* box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
     color: #fff;
     transform: translateY(-7px);
     color: inherit;
@@ -113,8 +112,7 @@ p {
     transform: translateY(-7px);
     cursor: pointer;
   }
-  
-  /* The actual popup (appears on top) */
+
   .popup .popuptext {
     visibility: hidden;
     width: 160px;
@@ -130,7 +128,7 @@ p {
     margin-left: -80px;
   }
   
-  /* Popup arrow */
+
   .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -142,14 +140,13 @@ p {
     border-color: #555 transparent transparent transparent;
   }
   
-  /* Toggle this class when clicking on the popup container (hide and show the popup) */
   .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
   }
   
-  /* Add animation (fade in the popup) */
+ 
   @-webkit-keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
@@ -200,15 +197,6 @@ p {
   .fa:hover {
     opacity: 0.7;
   }
-
-
-   /* .fa-instagram {
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
-  }  */
 
   .fa-instagram { 
      background: #f09433;  
